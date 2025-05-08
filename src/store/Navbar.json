@@ -1,0 +1,230 @@
+{
+    "DIEJ": [
+        {
+            "title": "Home",
+            "path": "/",
+            "icon": "faHome"
+        },
+        {
+            "title": "Armas",
+            "path": "/armas",
+            "icon": "faGun"
+        },
+        {
+            "title": "Mi Perfil",
+            "path": "/perfil",
+            "icon": "faUser",
+            "children": [
+                {
+                    "title": "Credencial",
+                    "path": "/settings/credencial",
+                    "icon": "faKey"
+                },
+                {
+                    "title": "Mis Datos",
+                    "path": "/settings/datos",
+                    "icon": "faCircleInfo"
+                }
+            ]
+        },
+        {
+            "title": "Administración",
+            "path": "/settings",
+            "icon": "faGear",
+            "children": [
+                {
+                    "title": "Configuración",
+                    "path": "/settings/perfil",
+                    "icon": "faScrewdriverWrench"
+                },
+                {
+                    "title": "Permisos de Usuarios",
+                    "path": "/settings/permisos",
+                    "icon": "faUsers"
+                }
+            ]
+        },
+        {
+            "title": "Salir",
+            "icon": "faRightFromBracket",
+            "action": "logout"
+        }
+    ],
+    "DIAE": [
+        {
+            "title": "Home",
+            "path": "/",
+            "icon": "faHome"
+        },
+        {
+            "title": "Armas",
+            "path": "/armas",
+            "icon": "faGun"
+        },
+        {
+            "title": "Mi Perfil",
+            "path": "/perfil",
+            "icon": "faUser",
+            "children": [
+                {
+                    "title": "Credencial",
+                    "path": "/settings/credencial",
+                    "icon": "faKey"
+                },
+                {
+                    "title": "Mis Datos",
+                    "path": "/settings/datos",
+                    "icon": "faCircleInfo"
+                }
+            ]
+        },
+        {
+            "title": "Administración",
+            "path": "/settings",
+            "icon": "faGear",
+            "children": [
+                {
+                    "title": "Configuración",
+                    "path": "/settings/perfil",
+                    "icon": "faScrewdriverWrench"
+                },
+                {
+                    "title": "Permisos de Usuarios",
+                    "path": "/settings/permisos",
+                    "icon": "faUsers"
+                }
+            ]
+        },
+        {
+            "title": "Salir",
+            "icon": "faRightFromBracket",
+            "action": "logout"
+        }
+    ],
+    "JEMA": [
+        {
+            "title": "Home",
+            "path": "/",
+            "icon": "faHome"
+        },
+        {
+            "title": "Armas",
+            "path": "/armas",
+            "icon": "faGun"
+        },
+        {
+            "title": "Mi Perfil",
+            "path": "/perfil",
+            "icon": "faUser",
+            "children": [
+                {
+                    "title": "Credencial",
+                    "path": "/settings/credencial",
+                    "icon": "faKey"
+                },
+                {
+                    "title": "Mis Datos",
+                    "path": "/settings/datos",
+                    "icon": "faCircleInfo"
+                }
+            ]
+        },
+        {
+            "title": "Administración",
+            "path": "/settings",
+            "icon": "faGear",
+            "children": [
+                {
+                    "title": "Configuración",
+                    "path": "/settings/perfil",
+                    "icon": "faScrewdriverWrench"
+                },
+                {
+                    "title": "Permisos de Usuarios",
+                    "path": "/settings/permisos",
+                    "icon": "faUsers"
+                }
+            ]
+        },
+        {
+            "title": "Salir",
+            "icon": "faRightFromBracket",
+            "action": "logout"
+        }
+    ],
+    "SIAG": [
+        {
+            "title": "Home",
+            "path": "/",
+            "icon": "faHome"
+        },
+        {
+            "title": "Armas",
+            "path": "/armas",
+            "icon": "faGun"
+        },
+        {
+            "title": "Munición",
+            "path": "/municion",
+            "icon": "faBomb"
+        },
+        {
+            "title": "Adiestramiento",
+            "path": "/adiestramiento",
+            "icon": "faPersonRifle"
+        },
+        {
+            "title": "Mi Perfil",
+            "path": "/perfil",
+            "icon": "faUser",
+            "children": [
+                {
+                    "title": "Credencial",
+                    "path": "/settings/credencial",
+                    "icon": "faKey"
+                },
+                {
+                    "title": "Mis Datos",
+                    "path": "/settings/datos",
+                    "icon": "faCircleInfo"
+                }
+            ]
+        },
+        {
+            "title": "Administración",
+            "path": "/settings",
+            "icon": "faGear",
+            "children": [
+                {
+                    "title": "Configuración",
+                    "path": "/settings/perfil",
+                    "icon": "faScrewdriverWrench"
+                },
+                {
+                    "title": "Permisos de Usuarios",
+                    "path": "/settings/permisos",
+                    "icon": "faUsers"
+                }
+            ]
+        },
+        {
+            "title": "Salir",
+            "icon": "faRightFromBracket",
+            "action": "logout"
+        }
+    ],
+    "default": [
+        {
+            "title": "Home",
+            "path": "/",
+            "icon": "faHome"
+        },
+        {
+            "title": "Salir",
+            "icon": "faRightFromBracket",
+            "action": "logout"
+        }
+    ]
+}
+
+

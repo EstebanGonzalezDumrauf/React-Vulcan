@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nt": "MB",
+        "inventario": "16776",
+        "nne": "1004C070002",
+        "nomenclatura": "AMETRALLADORA BROWNING 12,7 M-3 AEREA MODIFICADA A NAVAL.- ",
+        "apoyado": "106001",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614143-TUBO-614143"
+    },
+    {
+        "id": 2,
+        "nt": "MB",
+        "inventario": "16777",
+        "nne": "1004C070003",
+        "nomenclatura": "RIFLE DE ASALTO M4A1 CARBINE CON MIRAS TÁCTICAS ",
+        "apoyado": "106002",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614144-TUBO-614144"
+    },
+    {
+        "id": 3,
+        "nt": "MB",
+        "inventario": "16778",
+        "nne": "1004C070004",
+        "nomenclatura": "PISTOLA SEMIAUTOMÁTICA SIG P226 CALIBRE 9MM",
+        "apoyado": "106003",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614145-TUBO-614145"
+    },
+    {
+        "id": 4,
+        "nt": "MB",
+        "inventario": "16779",
+        "nne": "1004C070005",
+        "nomenclatura": "ESCOPETA REMINGTON 870 CON CAÑÓN DE 18 PULGADAS",
+        "apoyado": "106004",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614146-TUBO-614146"
+    },
+    {
+        "id": 5,
+        "nt": "MB",
+        "inventario": "16780",
+        "nne": "1004C070006",
+        "nomenclatura": "RIFLE DE PRECISIÓN REMINGTON 700 CON VISOR LEUPOLD",
+        "apoyado": "106005",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614147-TUBO-614147"
+    },
+    {
+        "id": 6,
+        "nt": "MB",
+        "inventario": "16781",
+        "nne": "1004C070007",
+        "nomenclatura": "AMETRALLADORA M60E4 CON BIPODE Y CAÑÓN DE 22 PULGADAS",
+        "apoyado": "106006",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614148-TUBO-614148"
+    },
+    {
+        "id": 7,
+        "nt": "MB",
+        "inventario": "16782",
+        "nne": "1004C070008",
+        "nomenclatura": "PISTOLA AUTOMÁTICA GLOCK 19 CALIBRE 9MM",
+        "apoyado": "106007",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614149-TUBO-614149"
+    },
+    {
+        "id": 8,
+        "nt": "MB",
+        "inventario": "16783",
+        "nne": "1004C070009",
+        "nomenclatura": "RIFLE DE BOLT ACTION SAKO TRG-22 CALIBRE .338 LAPUA",
+        "apoyado": "106008",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614150-TUBO-614150"
+    },
+    {
+        "id": 9,
+        "nt": "MB",
+        "inventario": "16784",
+        "nne": "1004C070010",
+        "nomenclatura": "ESCOPETA BENELLI M4 TACTICAL CON CULATA TELESCÓPICA",
+        "apoyado": "106009",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614151-TUBO-614151"
+    },
+    {
+        "id": 10,
+        "nt": "MB",
+        "inventario": "16785",
+        "nne": "1004C070011",
+        "nomenclatura": "AMETRALLADORA UZI PRO COMPACT CALIBRE 9MM",
+        "apoyado": "106010",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614152-TUBO-614152"
+    },
+    {
+        "id": 11,
+        "nt": "MB",
+        "inventario": "16786",
+        "nne": "1004C070012",
+        "nomenclatura": "RIFLE DE ASALTO AK-47 CON MONTURA PARA ACCESORIOS",
+        "apoyado": "106011",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614153-TUBO-614153"
+    },
+    {
+        "id": 12,
+        "nt": "MB",
+        "inventario": "16787",
+        "nne": "1004C070013",
+        "nomenclatura": "PISTOLA CZ-75 SP-01 PHANTOM CALIBRE 9MM",
+        "apoyado": "106012",
+        "ubicacion": "SIAG",
+        "serie": "CAJA-614154-TUBO-614154"
+    }
+]
