@@ -7,6 +7,17 @@ export const getRibbonActions = () => {
                 { text: 'Exportar a Excel', icon: 'GridOn', color: '#5CD3FF' },
                 { text: 'Exportar a PDF', icon: 'PictureAsPdf', color: '#F56C6C' }
             ]);
-        }, 500); // delay para simular llamada async
+        }, 100); // delay para simular llamada async
+    });
+};
+
+export const getRibbonActions2 = () => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve([
+                { text: 'Aceptar', icon: 'CheckCircle', color: '#4CAF50' }, // verde
+                { text: 'Cancelar', icon: 'Cancel', color: '#F44336' }     // rojo
+            ]);
+        }, 100); // delay para simular llamada async
     });
 };

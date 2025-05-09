@@ -111,19 +111,20 @@ export const useAuth = () => {
         const logon = localStorage.getItem('auth_email');
         const name = localStorage.getItem('auth_name');
         const unit = localStorage.getItem('unit');
-
+    
         if (!token || !userId) {
-            return startLogout();
+            return startLogout(); // debería cambiar status a 'not-authenticated'
         }
-
-        const tokenInitDate = localStorage.getItem('token-init-date');
+    
+        const tokenInitDate = Number(localStorage.getItem('token-init-date'));
         const now = new Date().getTime();
         const tokenLife = 1000 * 60 * 60 * 4; // 4 horas
-
+    
         if (tokenInitDate && (now - tokenInitDate) > tokenLife) {
-            return startLogout();
+            return startLogout(); // token vencido
         }
-
+    
+        // Esto debe cambiar status a 'authenticated' y establecer el usuario en el estado
         onLogin({
             uid: userId,
             logon,
@@ -132,6 +133,7 @@ export const useAuth = () => {
             photoURL: null,
         });
     };
+    
 
     return {
         status,

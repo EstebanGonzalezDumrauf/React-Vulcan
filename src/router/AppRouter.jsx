@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { LoginPage, ArmasPage, C4DashboardPage } from '../pages';
+import { LoginPage, ArmasPage, C4DashboardPage, DetailWeaponPage, AmmunitionPage } from '../pages';
 //import { useAuthStore } from '../hooks';
 import { useAuth } from '../hooks';
 import { useEffect } from 'react';
@@ -15,18 +15,23 @@ export const AppRouter = () => {
     if (status === 'checking') {
         return <h3>Cargando . . .</h3>;
     }
+    
 
     return (
         <Routes>
             {status === 'not-authenticated' ? (
                 <>
                     <Route path="/auth/*" element={<LoginPage />} />
-                    <Route path="/armas" element={<ArmasPage />} />
                     <Route path="/*" element={<Navigate to="/auth/login" />} />
                 </>
             ) : (
                 <>
-                    <Route path="/*" element={<C4DashboardPage />} />
+                    <Route path="/" element={<C4DashboardPage />}>
+                        <Route path="armas" element={<ArmasPage />} />
+                        <Route path="armas/:id" element={<DetailWeaponPage />} />
+                        <Route path="municion" element={<AmmunitionPage />} />
+                        <Route path="*" element={<Navigate to="/" />} />
+                    </Route>
                 </>
             )}
         </Routes>

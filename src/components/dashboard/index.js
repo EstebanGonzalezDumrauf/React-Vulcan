@@ -8,3 +8,6 @@ export * from './ResponsiveFlexLayout';
 export * from './Footer';
 export * from './GridTable';
 export * from './RibbonButtons';
+export * from './CardWeapon';
+export * from './CarrouselPics';
+export * from './RibbonButtonsYesNot';

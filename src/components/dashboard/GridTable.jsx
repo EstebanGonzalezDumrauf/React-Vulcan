@@ -122,9 +122,11 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import armasData from '../../store/Armas.json';
 import { RibbonButtons } from "./RibbonButtons";
+import { useNavigate } from 'react-router-dom';
 
 export function GridTable() {
     const [rows, setRows] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const mappedRows = armasData.map((item, index) => ({
@@ -191,6 +193,9 @@ export function GridTable() {
                     pageSizeOptions={[5, 10, 25]}
                     checkboxSelection
                     disableRowSelectionOnClick
+                    onRowClick={(params) => {
+                        navigate(`/armas/${params.row.id}`);
+                    }}
                     sx={{
                         border: 0,
                         '& .MuiDataGrid-columnHeaders': {
