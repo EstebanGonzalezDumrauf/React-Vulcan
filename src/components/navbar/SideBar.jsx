@@ -24,8 +24,9 @@ import { Button } from '@mui/material';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { useAuth } from '../../hooks';
 import { useNavigate } from 'react-router-dom';
+import { NotificationBell } from '../../components/dashboard/NotificationBell';
 
-const drawerWidth = 240;
+const drawerWidth = 260;
 
 const openedMixin = (theme) => ({
     width: drawerWidth,
@@ -178,6 +179,7 @@ export const SideBar = ({ navArrayLinks }) => {
         <Box sx={{ flexGrow: 1 }} />
 
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+            <NotificationBell count={3} />
             <Typography variant="body1" sx={{ color: theme.palette.secondary.contrastText }}>
                 {user.nombre}
             </Typography>

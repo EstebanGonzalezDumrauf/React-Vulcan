@@ -6,3 +6,4 @@ export * from './C4DashboardPage';
 export * from './DashboardPage';
 export * from './DetailWeaponPage';
 export * from './AmmunitionPage';
+export * from './TrainingPage';

@@ -75,35 +75,6 @@ export const useAuth = () => {
         onLogout();
     };
 
-    // const checkAuthToken = async () => {
-    //     const token = localStorage.getItem('token');
-    //     if (!token) return onLogout();
-
-    //     try {
-    //         const { data } = await authApi.get('/auth/renew');
-    //         localStorage.setItem('token', data.token);
-    //         localStorage.setItem('userId', data.userId);
-    //         localStorage.setItem("auth_email", data.logon);
-    //         localStorage.setItem('token-init-date', new Date().getTime());
-
-    //         onLogin({
-    //             userId: data.userId,
-    //             name: data.name,
-    //             logon: data.logon,
-    //             photoURL: data.photoURL ?? null, 
-    //         });
-
-    //         // Obtener datos de usuario después de renovar el token
-    //         await getUser(data.userId);
-
-    //     } catch (error) {
-    //         localStorage.removeItem('token');
-    //         localStorage.removeItem('token-init-date');
-    //         localStorage.removeItem('userId');
-    //         localStorage.removeItem('unit');
-    //         onLogout();
-    //     }
-    // };
 
     const checkAuthToken = async () => {
         const token = localStorage.getItem('token');

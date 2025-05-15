@@ -61,12 +61,14 @@ function Description() {
     }, [unitFromStore]);
 
     return (
-        <Box sx={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 3 }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 3 }}>
             <Grid container spacing={3} sx={{ width: '100%' }}>
                 {sections.map(({ title, path, description, icon, color }) => (
                     <Grid item xs={12} key={title}>
                         <Paper elevation={5} sx={{
-                            padding: 4,
+                            paddingTop: 4,
+                            paddingBottom: 4,
+                            paddingLeft: 2,
                             backgroundColor: color,
                             color: 'white',
                             display: 'flex',
@@ -77,7 +79,7 @@ function Description() {
                             borderRadius: 3,
                             boxShadow: 3,
                             width: '100%',
-                            paddingRight: 4
+                            paddingRight: 2
                         }}>
                             <Box sx={{ flex: 1 }}>
                                 <Typography variant="h4" fontWeight="bold">{title}</Typography>

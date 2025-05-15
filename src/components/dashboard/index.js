@@ -11,3 +11,4 @@ export * from './RibbonButtons';
 export * from './CardWeapon';
 export * from './CarrouselPics';
 export * from './RibbonButtonsYesNot';
+export * from './NotificationBell';

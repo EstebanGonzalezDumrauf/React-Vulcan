@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { LoginPage, ArmasPage, C4DashboardPage, DetailWeaponPage, AmmunitionPage } from '../pages';
+import { LoginPage, ArmasPage, C4DashboardPage, DetailWeaponPage, AmmunitionPage, TrainingPage } from '../pages';
 //import { useAuthStore } from '../hooks';
 import { useAuth } from '../hooks';
 import { useEffect } from 'react';
@@ -30,6 +30,7 @@ export const AppRouter = () => {
                         <Route path="armas" element={<ArmasPage />} />
                         <Route path="armas/:id" element={<DetailWeaponPage />} />
                         <Route path="municion" element={<AmmunitionPage />} />
+                        <Route path="adiestramiento" element={<TrainingPage />} />
                         <Route path="*" element={<Navigate to="/" />} />
                     </Route>
                 </>
